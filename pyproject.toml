@@ -3,7 +3,7 @@
 # torch is not needed to build the open-source (pure Python) package, but it is
 # needed to build the fairinternal kernels. Keep it, so that building those from
 # source does not require --no-build-isolation.
-requires = ["setuptools >= 64", "torch >= 2.10"]
+requires = ["setuptools >= 64"]
 build-backend = "setuptools.build_meta"
 
 [tool.black]
